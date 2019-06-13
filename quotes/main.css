@@ -1,0 +1,35 @@
+body{
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: pink;
+	color: #333;
+	font-weight: 400;  
+}
+
+.container{
+	text-align: center;
+	padding: 2rem;
+	border-radius: 5px;
+	background-color: #fff;
+	flex: 0 0 80%;
+}
+#quoteBtn{
+	border:none;
+	color : #fff;
+	background-color: grey;
+	font-size: 1rem;
+	padding: 0.25rem 0.5rem;
+	border-radius: 7px;
+	cursor: pointer;
+}
+blockQuote{
+	background: grey;
+	border-left: 10px solid pink;
+	margin: 1.5rem;
+	padding: 0.5rem;
+}
+#quoteAuthor{
+	color: yellow;
+}
